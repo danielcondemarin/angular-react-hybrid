@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Angular React Hybrid</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+		<script src="/dist/app.js"></script>
+		<script src="/legacy/scripts/angular-app.js"></script>
+
+	</head>
+	<body ng-controller="mainController">
+		<div id="main" style="text-align: center; margin-top: 30px; font-size: 30px;">
+			<div ng-view></div>
+		</div>
+	</body>
+</html>
