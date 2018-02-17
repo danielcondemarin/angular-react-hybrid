@@ -6,6 +6,7 @@ myApp.config(function($routeProvider) {
 			controller: 'homeController',
 			templateUrl: '/legacy/templates/home.html'
 		})
+		.otherwise({ redirectTo: '/home' })
 	}
 );
 
